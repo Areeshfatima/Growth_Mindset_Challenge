@@ -9,7 +9,7 @@ from io import BytesIO
 # Set up our App
 
 st.set_page_config(page_title ="🧹📊 Data Sweeper", layout ="wide")
-st.title("🧹📊 Data Sweeper")
+st.title("🧹 Data Sweeper")
 st.write("Breathe life into your spreadsheets—convert formats, clean the clutter, and bring your data to life with visuals!")
 
 uploaded_files = st.file_uploader("Upload your files (CSV or Excel):", type = ["csv", "xlsx"], accept_multiple_files = True)
